@@ -42,7 +42,14 @@ class ParamsController < ApplicationController
     # Build off of the code in the view
     #=====================================
 
+    @result = params["width"]["height"]
     render "num_4"
+  end
+
+  def num_5
+
+    @result = params["phrase"]
+    render "num_5"
   end
 
 end

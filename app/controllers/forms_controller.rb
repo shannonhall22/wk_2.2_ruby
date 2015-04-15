@@ -56,6 +56,15 @@ class FormsController < ApplicationController
     render "num_4_display"
   end
 
+  def num_4_process
+    #=== Example ===========================
+    # Processing a form
+    #=====================================
+
+    @result= params["my_feelings"]
+    render "num_4_process"
+  end
+
   def num_5_display
     #=== Problem ===========================
     # Translating to snake case
@@ -66,10 +75,15 @@ class FormsController < ApplicationController
     #
     # ex) "Hello World" turns into "hello_world"
     #=====================================
-
     render "num_5_display"
   end
 
+def num_5_process
+
+    @phrase = params["phrase"]
+    render "num_5_process"
+
+end
   def num_6_display
     #=== Problem ===========================
     # Calculating volume
