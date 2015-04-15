@@ -20,7 +20,7 @@ Rails.application.routes.draw do
 
   get("/params/1/:name", {:controller => "params", :action => "num_1"})
   get("/params/2/:color", {:controller => "params", :action => "num_2"})
-  get("/params/3", {:controller => "params", :action => "num_3"})
+  get("/params/3/:font", {:controller => "params", :action => "num_3"})
   get("/params/4", {:controller => "params", :action => "num_4"})
 
 

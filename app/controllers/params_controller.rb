@@ -14,7 +14,7 @@ class ParamsController < ApplicationController
     # - A user should be able to navigate to /params/2/green and see a green page.
     #=====================================
 
-    @result = "Replace this string with your answer"
+    @result = params["color"]
     render "num_2"
   end
 
@@ -28,7 +28,7 @@ class ParamsController < ApplicationController
     # Build off of the code in the view
     #=====================================
 
-    @result = "Replace this string with your answer"
+    @result = params["font"]
     render "num_3"
   end
 
