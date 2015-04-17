@@ -52,4 +52,6 @@ class ParamsController < ApplicationController
     render "num_5"
   end
 
+
+
 end

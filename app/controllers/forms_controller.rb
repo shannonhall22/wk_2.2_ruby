@@ -101,6 +101,18 @@ end
     render "num_6_display"
   end
 
+  def num_6_process
+
+    @a = params["length"].to_i
+    @b = params["width"].to_i
+    @c = params["height"].to_i
+
+    @result = (@a*@b*@c)
+
+    render "num_6_process"
+  end
+
+
   def num_7_display
     #=== Problem ===========================
     # Choose your own calculation
@@ -115,6 +127,16 @@ end
 
     render "num_7_display"
   end
+
+  def num_7_process
+
+    @a = params["a"].to_i
+    @b = params["b"].to_1
+    @result = (@a*@a) + (@b+@b)
+    render "num_7_process"
+
+  end
+
 
   def num_8_display
     #=== Problem ===========================
