@@ -103,11 +103,11 @@ end
 
   def num_6_process
 
-    @a = params["length"].to_i
-    @b = params["width"].to_i
-    @c = params["height"].to_i
+    a = params["length"].to_i
+    b = params["width"].to_i
+    c = params["height"].to_i
 
-    @result = (@a*@b*@c)
+    @result = (a*b*c)
 
     render "num_6_process"
   end
@@ -130,9 +130,9 @@ end
 
   def num_7_process
 
-    @a = params["a"].to_i
-    @b = params["b"].to_1
-    @result = (@a*@a) + (@b+@b)
+    a = params["a"].to_i
+    b = params["b"].to_i
+    @result = (a**2) + (b**2)
     render "num_7_process"
 
   end
