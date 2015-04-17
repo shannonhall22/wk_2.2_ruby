@@ -38,6 +38,7 @@ Rails.application.routes.draw do
   get("/forms/7", {:controller => "forms", :action => "num_7_display"})
   get("/forms/7_process", {:controller => "forms", :action => "num_7_process"})
   get("/forms/8", {:controller => "forms", :action => "num_8_display"})
+  get("/forms/8_process", {:controller => "forms", :action => "num_8_process"})
   get("/forms/9", {:controller => "forms", :action => "num_9_display"})
   get("/forms/10", {:controller => "forms", :action => "num_10_display"})
 

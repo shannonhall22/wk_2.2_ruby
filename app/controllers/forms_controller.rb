@@ -151,6 +151,14 @@ end
     render "num_8_display"
   end
 
+  def num_8_process
+
+
+
+    render "num_8_process"
+  end
+
+
   def num_9_display
     #=== Problem ===========================
     # Mad-libs!
