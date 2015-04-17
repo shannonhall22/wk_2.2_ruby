@@ -153,8 +153,6 @@ end
 
   def num_8_process
 
-
-
     render "num_8_process"
   end
 
